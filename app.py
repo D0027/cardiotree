@@ -1,4 +1,6 @@
 """CardioTree — an interactive lab for Decision Trees & Random Forests."""
+import warnings
+
 import numpy as np
 import pandas as pd
 import plotly.express as px
@@ -9,6 +11,8 @@ from sklearn.tree import export_graphviz, export_text
 
 from src import data, models, theme
 from src.config import (C_ACC, C_AMB, C_DT, C_RED, C_RF, CLASS_NAMES, DT_TUNED, FEATURE_INFO, RS)
+
+warnings.filterwarnings("ignore")  # silence joblib/sklearn thread-config warnings
 
 st.set_page_config(page_title="CardioTree · Trees & Forests Lab", page_icon="🌳", layout="wide")
 theme.inject()
