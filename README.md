@@ -6,6 +6,7 @@
 
 *See how a single tree learns, watch it overfit, then watch a forest fix it — all in your browser.*
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Open_App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://cardiotree-027.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-38BDF8?style=for-the-badge&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-34D399?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-F87171?style=for-the-badge&logo=streamlit&logoColor=white)
